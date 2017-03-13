@@ -1,7 +1,7 @@
 Source: chimera-daily
 Maintainer: Jeongseok Lee <jeongseok@cmu.edu>
 Uploaders: Jeongseok Lee <jeongseok@cmu.edu>
-Section: utilities
+Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9),
                cmake,
