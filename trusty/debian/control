@@ -4,13 +4,13 @@ Uploaders: Jeongseok Lee <jslee02@gmail.com>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9),
-               cmake,
+               cmake (>= 3.0.2),
                pkg-config,
                zlib1g-dev,
                lib32z1-dev [!i386],
-               llvm-4.0-dev,
-               llvm-4.0-tools,
-               libclang-4.0-dev,
+               llvm-3.8-dev,
+               llvm-3.8-tools,
+               libclang-3.8-dev,
                libedit-dev,
                libyaml-cpp-dev,
                libboost-python-dev,
@@ -26,9 +26,9 @@ Architecture: any
 Multi-Arch: foreign
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         llvm-4.0-dev,
-         llvm-4.0-tools,
-         libclang-4.0-dev,
+         llvm-3.8-dev,
+         llvm-3.8-tools,
+         libclang-3.8-dev,
          libedit-dev,
          libyaml-cpp-dev, 
          libboost-python-dev

@@ -1,11 +1,12 @@
-chimera (0.0.3.ppa3~xenial) xenial; urgency=medium
+chimera (0.0.3.ppa1~trusty) trusty; urgency=medium
 
   * Fixed parsing binding tag from configuration file
 
  -- Jeongseok Lee <jslee02@gmail.com>  Tue, 22 May 2018 23:59:00 -0700
 
-chimera (0.0.2.ppa8~xenial) xenial; urgency=medium
+chimera (0.0.2.ppa7~trusty) trusty; urgency=medium
 
   * Initial release
 
  -- Jeongseok Lee <jslee02@gmail.com>  Thu, 13 Oct 2017 23:59:00 -0700
+
