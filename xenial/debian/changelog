@@ -1,4 +1,4 @@
-chimera (0.0.3.ppa3~xenial) xenial; urgency=medium
+chimera (0.0.3.ppa4~xenial) xenial; urgency=medium
 
   * Fixed parsing binding tag from configuration file
 
