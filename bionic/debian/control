@@ -4,7 +4,7 @@ Uploaders: Jeongseok Lee <jslee02@gmail.com>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9),
-               cmake,
+               cmake (>= 3.0.2),
                pkg-config,
                zlib1g-dev,
                lib32z1-dev [!i386],
