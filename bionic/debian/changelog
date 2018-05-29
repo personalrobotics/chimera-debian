@@ -1,4 +1,4 @@
-chimera (0.0.3.ppa3~bionic) bionic; urgency=medium
+chimera (0.0.3.ppa4~bionic) bionic; urgency=medium
 
   * Fixed parsing binding tag from configuration file
 
