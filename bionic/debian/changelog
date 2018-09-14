@@ -1,3 +1,7 @@
+chimera (0.0.5) unstable; urgency=medium
+
+ -- Jeongseok Lee <jslee02@gmail.com>  Tue, 22 May 2018 23:59:00 -0700
+
 chimera (0.0.3.ppa4~bionic) bionic; urgency=medium
 
   * Fixed parsing binding tag from configuration file
