@@ -8,9 +8,9 @@ Build-Depends: debhelper (>= 9),
                pkg-config,
                zlib1g-dev,
                lib32z1-dev [!i386],
-               llvm-3.7-dev,
-               llvm-3.7-tools,
-               libclang-3.7-dev,
+               llvm-3.6-dev,
+               llvm-3.6-tools,
+               libclang-3.6-dev,
                libedit-dev,
                libyaml-cpp-dev,
                libboost-python-dev,
@@ -26,13 +26,13 @@ Architecture: any
 Multi-Arch: foreign
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         llvm-3.7-dev,
-         llvm-3.7-tools,
-         libclang-3.7-dev,
+         llvm-3.6-dev,
+         llvm-3.6-tools,
+         libclang-3.6-dev,
          libedit-dev,
-         libyaml-cpp-dev, 
+         libyaml-cpp-dev,
          libboost-python-dev
 Description: Utility to generate Boost.Python bindings for C++ code - Binaries
  Chimera is a tool for generating Boost.Python bindings from C/C++ header files.
- It uses the Clang/LLVM toolchain, making it capable of automatically handling 
+ It uses the Clang/LLVM toolchain, making it capable of automatically handling
  fairly complex source files.
